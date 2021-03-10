@@ -1,22 +1,37 @@
+/*основной цвет: #757575*/
+/*вторичный цвет:#212121*/
+/*акцент: #2196f3*/
+
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196f3;
+}
+
 body {
   background-color: #e5e5e5;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
-/*секция навигации*/
+/*секция шапки*/
 
-.style_web {
-  color: #2196f3;
+.style-web {
+  color: var(--accent-color);
+  
 }
-.style_studio {
+.style-studio {
   color: #000000;
-}
-.style_header a {
-  color: #212121;
-  text-decoration: none;
 }
 ul {
   list-style: none;
+}
+.style-header a {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.style-header a:hover,
+.style-header a:focus {
+  color: var(--accent-color);
 }
 
 /*секция герой*/
@@ -26,51 +41,58 @@ ul {
 .title {
   color: #ffffff;
 }
-.style_btn {
-  background: #2196f3;
+.style-btn {
+  background: var(--accent-color);
   color: #ffffff;
 }
 
 /*секция качеств компании*/
-.titel_invisible {
+.titel-invisible {
   color: #e5e5e5;
 }
-.titel_skills {
-  color: #212121;
+.features-title {
+  color: var(--title-text-color);
 }
-.text_skills {
-  color: #757575;
+.features-text {
+  color: var(--primary-text-color);
 }
-.title_worck {
-  color: #212121;
-}
-.title_comunity {
-  color: #212121;
-}
-.style_name {
-  color: #212121;
-}
-.style_profession {
-  color: #757575;
+.title-worck {
+  color: var(--title-text-color);
 }
 
-/*стилизация подвала*/
-.style_studio_f {
-  color: #ffffff;
+/*команда*/
+.title-comunity {
+  color: var(--title-text-color);
 }
-.link_f {
-  color: #ffffff;
-  text-decoration: none;
+.style-name {
+  color: var(--title-text-color);
 }
-footer {
+.style-profession {
+  color: var(--primary-text-color);
+}
+.button-style {
+    background-color: #f5f4fa;
+  }
+  .portfolio-title {
+    color: var(--title-text-color);
+  }
+  .portfolio-text {
+    color: var(--primary-text-color)5;
+  }
+
+/*стилизация подвала */
+.style-footer{
   background-color: #2f303a;
 }
-.button_style {
-  background-color: #f5f4fa;
+.style-footer.a{
+    text-decoration: none;
 }
-.portfolio_title {
-  color: #212121;
+
+.style-studio-f{
+  color: #ffffff;
 }
-.portfolio_text {
-  color: #757575;
+.link-f{
+    color: #ffffff;
+    text-decoration: none;
 }
+
