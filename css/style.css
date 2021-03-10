@@ -1,16 +1,19 @@
 /*основной цвет: #757575*/
 /*вторичный цвет:#212121*/
-/*акцент: #2196f3*/
+/*акцент: #2196f3*
+/*белый: #fff*/
+/*втооричный цвет фона: #e5e5e5*/
 
 :root{
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196f3;
     --primary-white-color: #fff;
+    --secondary-bg-color: #e5e5e5;
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color:var(--secondary-bg-color);
   color: var(--primary-text-color);
 }
 
@@ -49,7 +52,7 @@ ul {
 
 /*секция качеств компании*/
 .titel-invisible {
-  color: #e5e5e5;
+  color: var(--secondary-bg-color);
 }
 .features-title {
   color: var(--title-text-color);
