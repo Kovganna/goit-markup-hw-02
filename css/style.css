@@ -2,6 +2,8 @@ body{
     background-color: #E5E5E5;
 }
 
+/*секция навигации*/
+
 .style_web{
     color: #2196F3; 
 }
@@ -15,10 +17,38 @@ body{
 .style_list{
     color:#E5E5E5  ;
 }
+
+/*секция герой*/
+.hero{
+    background-color: #000000;
+}
 .title{
     color:#FFFFFF;    
 }
 .style_btn{
     background: #2196F3;
     color: #FFFFFF;
+}
+
+/*секция качеств компании*/
+.titel_invisible{
+    color: #E5E5E5;
+}
+.titel_skills{
+    color: #212121;
+}
+.text_skills{
+color: #757575;
+}
+.title_worck{
+    color: #212121;
+}
+.title_comunity{
+    color: #212121;
+}
+.style_name{
+    color:#212121;
+}
+.style_profession{
+color: #757575;
 }
