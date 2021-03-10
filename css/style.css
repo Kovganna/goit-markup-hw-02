@@ -40,6 +40,9 @@ ul {
 .style-header .current {
 color: var(--accent-color);
 }
+.style-header .tel-style{
+    color: var(--primary-text-color);
+}
 
 /*секция герой*/
 .hero {
