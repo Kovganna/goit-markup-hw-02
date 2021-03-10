@@ -1,64 +1,76 @@
-body{
-    background-color: #E5E5E5;
+body {
+  background-color: #e5e5e5;
+  color: #757575;
 }
 
 /*секция навигации*/
 
-.style_web{
-    color: #2196F3; 
+.style_web {
+  color: #2196f3;
 }
-.style_studio{
-    color: #000000;   
+.style_studio {
+  color: #000000;
 }
-.link{
-    color: #212121;
-    text-decoration: none;
+.style_header a {
+  color: #212121;
+  text-decoration: none;
 }
-.style_list{
-    color:#E5E5E5  ;
+ul {
+  list-style: none;
 }
 
 /*секция герой*/
-.hero{
-    background-color: #000000;
+.hero {
+  background-color: #000000;
 }
-.title{
-    color:#FFFFFF;    
+.title {
+  color: #ffffff;
 }
-.style_btn{
-    background: #2196F3;
-    color: #FFFFFF;
+.style_btn {
+  background: #2196f3;
+  color: #ffffff;
 }
 
 /*секция качеств компании*/
-.titel_invisible{
-    color: #E5E5E5;
+.titel_invisible {
+  color: #e5e5e5;
 }
-.titel_skills{
-    color: #212121;
+.titel_skills {
+  color: #212121;
 }
-.text_skills{
-color: #757575;
+.text_skills {
+  color: #757575;
 }
-.title_worck{
-    color: #212121;
+.title_worck {
+  color: #212121;
 }
-.title_comunity{
-    color: #212121;
+.title_comunity {
+  color: #212121;
 }
-.style_name{
-    color:#212121;
+.style_name {
+  color: #212121;
 }
-.style_profession{
-color: #757575;
+.style_profession {
+  color: #757575;
 }
-.style_studio_f{
-    color: #FFFFFF;
+
+/*стилизация подвала*/
+.style_studio_f {
+  color: #ffffff;
 }
-.link_f{
-    color: #FFFFFF;
-    text-decoration: none;
+.link_f {
+  color: #ffffff;
+  text-decoration: none;
 }
-footer{
-    background-color: #2F303A;
+footer {
+  background-color: #2f303a;
+}
+.button_style {
+  background-color: #f5f4fa;
+}
+.portfolio_title {
+  color: #212121;
+}
+.portfolio_text {
+  color: #757575;
 }
