@@ -37,6 +37,9 @@ ul {
 .style-header a:focus {
   color: var(--accent-color);
 }
+.style-header .current {
+color: var(--accent-color);
+}
 
 /*секция герой*/
 .hero {
