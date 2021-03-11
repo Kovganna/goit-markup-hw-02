@@ -47,9 +47,11 @@ color: var(--accent-color);
 /*секция герой*/
 .hero {
   background-color: #000000;
+  text-align: center;
 }
 .title {
   color: var(--primary-white-color);
+  text-transform: uppercase;
 }
 .button.primary {
   background: var(--accent-color);
@@ -68,11 +70,13 @@ color: var(--accent-color);
 }
 .title-worck {
   color: var(--title-text-color);
+  text-align: center;
 }
 
 /*команда*/
 .title-comunity {
   color: var(--title-text-color);
+  text-align: center;
 }
 .style-name {
   color: var(--title-text-color);
