@@ -26,14 +26,14 @@ body {
   font-size: 26px;
   line-height: 1.2;
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
 }
 .style-studio {
   color: #000000;
   font-size: 26px;
   line-height: 1.2;
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
 }
 ul {
   list-style: none;
@@ -53,7 +53,7 @@ ul {
 .style-header .current {
   color: var(--accent-color);
 }
-.style-header .tel-style {
+.contacts a {
   color: var(--primary-text-color);
 }
 
@@ -68,6 +68,7 @@ ul {
   font-size: 44px;
   line-height: 1.4;
   font-weight: 900;
+  white-space: pre-wrap;
   text-transform: uppercase;
 }
 .button.primary {
@@ -75,7 +76,7 @@ ul {
   color: var(--primary-white-color);
   font-size: 16px;
   line-height: 1.9;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /*секция качеств компании*/
@@ -86,7 +87,7 @@ ul {
   color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.2;
-  font-weight: bold;
+  font-weight: 700;
 }
 .features-text {
   color: var(--primary-text-color);
@@ -99,7 +100,7 @@ ul {
   text-align: center;
   font-size: 36px;
   line-height: 1.2;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /*команда*/
@@ -127,7 +128,7 @@ ul {
   font-size: 26px;
   line-height: 1.2;
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
 }
 .link-address {
   color: var(--primary-white-color);
@@ -145,10 +146,20 @@ ul {
 /*портфолио*/
 .button.secondary {
   background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
 .portfolio-title {
   color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .portfolio-text {
   color: var(--primary-text-color) 5;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
 }
