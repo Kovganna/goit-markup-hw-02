@@ -16,7 +16,7 @@ body {
   background-color: var(--secondary-bg-color);
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
-  font-family: Roboto, normal;
+  font-family: Roboto, sans-serif;
 }
 
 /*секция шапки*/
