@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Porfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
       rel="stylesheet"
@@ -14,31 +19,31 @@
   <body>
     
     <!--шапка-->
-    <header class="style-header">
+    <header>
       <nav>
-        <a href=""
-          ><span class="style-web">Web</span
-          ><span class="style-studio">Studio</span></a
+        <a href="" class="link"
+          ><span class="link-web">Web</span
+          ><span class="link-studio">Studio</span></a
         >
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="" class="style-header current">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="list">
+          <li><a href="./index.html"class="link">Студия</a></li>
+          <li><a href="" class="link current">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="contacts">
+      <ul class="list">
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="list-item">info@devstudio.com</a>
         </li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a href="tel:+380961111111" class="list-item">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
-      <h1 class="titel-invisible">Навигация по сайту</h1>
+      <h1 class="titel-hidden">Навигация по сайту</h1>
     
       <!--Навигационные кнопки-->
       <nav>
-        <ul>
+        <ul class="list">
           <li><button type="button" class="button secondary">Все</button></li>
           <li><button type="button" class="button secondary">Веб-сайты</button></li>
           <li>
@@ -50,7 +55,7 @@
       </nav>
 
       <!--Галерея проектов-->
-      <ul>
+      <ul class="list">
         <li>
           <a href=""
             ><img
@@ -63,7 +68,7 @@
           <p class="portfolio-text">Веб-сайт</p>
         </li>
         <li>
-          <a href=""
+          <a href="" 
             ><img
               src="./img_portfolio/Group1.jpg"
               width="370"
@@ -154,15 +159,15 @@
     </main>
 
     <!--Подвал-->
-    <footer class="style-footer">
-      <a href="/"
-        ><span class="style-web">Web</span
-        ><span class="style-studio-f">Studio</span></a
+    <footer>
+      <a href="/" class="link"
+        ><span class="link-web">Web</span
+        ><span class="studio-link">Studio</span></a
       >
       <address>
-        <p class="link-address">г. Киев, пр-т Леси Украинки, 26</p>
-        <a href="mailto:info@example.com" class="link-f">info@example.com</a>
-        <a href="tel:+380991111111" class="link-f">+38 099 111 11 11</a>
+        <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
+        <a href="mailto:info@example.com" class="item-link">info@example.com</a>
+        <a href="tel:+380991111111" class="item-link">+38 099 111 11 11</a>
       </address>
     </footer>
   </body>

@@ -13,73 +13,75 @@
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
       rel="stylesheet"
-    />    
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
-    <header class="style-header">
+    <header>
       <nav>
-        <a href="/"
-          ><span class="style-web">Web</span
-          ><span class="style-studio">Studio</span></a
+        <a href="/" class="link"
+          ><span class="link-web">Web</span
+          ><span class="link-studio">Studio</span></a
         >
-        <ul>
-          <li><a href="" class="style-header current">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="list">
+          <li><a href="" class="link current">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="contacts">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      <ul class="list">
         <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a href="mailto:info@devstudio.com" class="list-item"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="list-item">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
 
     <main>
-      <section class="hero">a
-        <h1 class="title">
-        Эффективные решения 
-        для вашего бизнеса</h1>
-        <button type="button" class="button primary">Заказать услугу</button>
+      <section class="hero">
+        <h1>Эффективные решения для вашего бизнеса</h1>
+        <button type="button" class="button">Заказать услугу</button>
       </section>
-      <section>sp
-        <h2 class="titel-invisible">Наши положительные качества</h2>
+      <section>
+        <h2 class="titel-hidden">Наши положительные качества</h2>
       </section>
-      <ul class="features">
+      <ul class="list">
         <li>
-          <h3 class="features-title">Внимание к деталям</h3>
-          <p class="features-text">
+          <h3 class="list-title">Внимание к деталям</h3>
+          <p class="list-text">
             Идейные соображения, а также начало повседневной работы по
             формированию позиции.
           </p>
         </li>
         <li>
-          <h3 class="features-title">Пунктуальность</h3>
-          <p class="features-text">
+          <h3 class="list-title">Пунктуальность</h3>
+          <p>
             Задача организации, в особенности же рамки и место обучения кадров
             влечет за собой.
           </p>
         </li>
         <li>
-          <h3 class="features-title">Планирование</h3>
-          <p class="features-text">
+          <h3 class="list-title">Планирование</h3>
+          <p>
             Равным образом консультация с широким активом в значительной степени
             обуславливает.
           </p>
         </li>
         <li>
-          <h3 class="features-title">Современные технологии</h3>
-          <p class="features-text">
+          <h3 class="list-title">Современные технологии</h3>
+          <p>
             Значисмость этих проблем настолько очевидна, что реализация плановых
             заданий.
           </p>
         </li>
       </ul>
       <section>
-        <h3 class="title-worck">Чем мы занимаемся</h3>
+        <h3 class="ability">Чем мы занимаемся</h3>
         <ul>
           <li>
             <img
@@ -101,45 +103,67 @@
         </ul>
       </section>
       <section>
-        <h2 class="title-comunity">Наша команда</h2>
-        <ul>
+        <h2 class="comunity">Наша команда</h2>
+        <ul class="list">
           <li>
-            <img src="./img/igor.jpg" width="300" alt="Игорь Демьяненько" />
-            <p class="style-name">Игорь Демьяненько</p>
-            <p class="style-profession">Product Designer</p>
+            <img
+              src="./img/igor.jpg"
+              width="270"
+              height="260"
+              alt="Игорь Демьяненько"
+            />
+            <p class="name">Игорь Демьяненько</p>
+            <p class="profession">Product Designer</p>
           </li>
           <li>
-            <img src="./img/olga.jpg" width="300" alt="Ольга Репина" />
-            <p class="style-name">Ольга Репина</p>
-            <p class="style-profession">Fronted Developer</p>
+            <img
+              src="./img/olga.jpg"
+              width="270"
+              height="260"
+              alt="Ольга Репина"
+            />
+            <p class="name">Ольга Репина</p>
+            <p class="profession">Fronted Developer</p>
           </li>
           <li>
-            <img src="./img/kolya.jpg" width="300" alt="Николай Тарасов" />
-            <p class="style-name">Николай Тарасов</p>
-            <p class="style-profession">Marketing</p>
+            <img
+              src="./img/kolya.jpg"
+              width="270"
+              height="260"
+              alt="Николай Тарасов"
+            />
+            <p class="name">Николай Тарасов</p>
+            <p class="profession">Marketing</p>
           </li>
           <li>
-            <img src="./img/misha.jpg" width="300" alt="Михаил Ермаков" />
-            <p class="style-name">Михаил Ермаков</p>
-            <p class="style-profession">UI Designer</p>
+            <img
+              src="./img/misha.jpg"
+              width="270"
+              height="260"
+              alt="Михаил Ермаков"
+            />
+            <p class="name">Михаил Ермаков</p>
+            <p class="profession">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer class="style-footer">
-      <a href="/"
-        ><span class="style-web">Web</span
-        ><span class="style-studio-f">Studio</span></a
+    <footer>
+      <a href="/" class="link"
+        ><span class="link-web">Web</span
+        ><span class="studio-link">Studio</span></a
       >
       <address>
-        <p class="link-address">г. Киев, Бульвар Леси Украинки, д. 26,</p>
+        <p class="location">г. Киев, Бульвар Леси Украинки, д. 26,</p>
       </address>
-      <ul>
+      <ul class="list">
         <li>
-          <a href="mailto:info@example.com" class="link-f">info@example.com</a>
+          <a href="mailto:info@example.com" class="item-link"
+            >info@example.com</a
+          >
         </li>
         <li>
-          <a href="tel:+380991111111" class="link-f">+38 099 111 11 11</a>
+          <a href="tel:+380991111111" class="item-link">+38 099 111 11 11</a>
         </li>
       </ul>
     </footer>
