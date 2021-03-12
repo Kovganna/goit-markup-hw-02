@@ -145,22 +145,22 @@ footer {
   list-style: none;
 }
 .portfolio-list a:hover,
-.portfolio-list a:focus{
+.portfolio-list a:focus {
   color: var(--accent-color);
 }
-.portfolio-list .current{
+.portfolio-list .current {
   color: var(--accent-color);
 }
 .portfolio-list .button {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-color: var(--title-text-color);
-background-color: var(--secondary-bg-color);
-cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+  cursor: pointer;
 }
-.buttons-list button:focus,
-.buttons-list button:hover{
+.portfolio-list button:focus,
+.portfolio-list button:hover {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
