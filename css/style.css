@@ -91,6 +91,8 @@ h1 {
   text-transform: uppercase;
   color: var(--primary-white-color);
   white-space: pre;
+  font-weight: 900;
+  text-align: center;
 }
 
 /* качества компании*/
@@ -130,6 +132,8 @@ footer {
 .location {
   text-decoration: none;
   color: var(--primary-white-color);
+  font-weight: 400;
+  font-style: normal;
 }
 .item-link {
   text-decoration: none;
@@ -137,13 +141,31 @@ footer {
 }
 
 /* портфолио */
-.list .secondary {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  text-align: center;
-  color: var(--title-text-color);
-  background: var(--secondary-bg-color);
+.portfolio-list {
+  list-style: none;
+}
+.portfolio-list a:hover,
+.portfolio-list a:focus{
+  color: var(--accent-color);
+}
+.portfolio-list .current{
+  color: var(--accent-color);
+}
+.buttons-list .button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+color: var(--title-text-color);
+background-color: var(--secondary-bg-color);
+cursor: pointer;
+}
+.buttons-list button:focus,
+.buttons-list button:hover{
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.titel-hidden {
+  display: none;
 }
 .portfolio-title {
   font-weight: 700;
@@ -153,6 +175,6 @@ footer {
   color: var(--title-text-color);
 }
 .portfolio-text {
-   font-size: 16px;
-line-height: 1.88;
+  font-size: 16px;
+  line-height: 1.88;
 }
